@@ -42,6 +42,12 @@ a:hover,a:focus,a:active,a.active{
 h1,h2,h3,h4,h5,h6{
    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700
    }
+
+
+h5.service-heading {
+   margin: 15px 0px 40px 0px;
+}
+
 .img-centered{
    margin:0 auto
    }
