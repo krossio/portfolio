@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6{
    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700
    }
 
+.about.h2 {
+   margin-bottom: 85px;
+}
 
 h5.service-heading {
    margin: 15px 0px 40px 0px;
@@ -91,8 +94,8 @@ h5.service-heading {
    font-size:18px;
    padding:20px 40px
 }
-.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{color:#fff;background-color:#FFCA28
-;border-color:#FFCA28}.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{background-image:none}.btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active{background-color:#333;border-color:#333}.btn-xl .badge{color:#333;background-color:#fff}.navbar-default{background-color:#222;border-color:transparent}
+.btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{color:#fff;background-color:#424242
+; border-color:#424242}.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl{background-image:none}.btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active{background-color:#333;border-color:#333}.btn-xl .badge{color:#333;background-color:#fff}.navbar-default{background-color:#222;border-color:transparent}
 
 .navbar-default .navbar-brand{
    color:#f1f1f1;
@@ -101,7 +104,7 @@ h5.service-heading {
    /*border: 2px solid white;*/
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{
-   color: #FFCA28
+   color: #424242;
 }
 .navbar-default .navbar-collapse{
    border-color:rgba(255,255,255,.02)
@@ -116,11 +119,11 @@ h5.service-heading {
 
 .navbar-default .nav li a{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:400;letter-spacing:1px;color:#fff}
 
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus{color:#FFCA28;outline:0}
+.navbar-default .nav li a:hover,.navbar-default .nav li a:focus{color:#039BE3;outline:0}
 
-.navbar-default .navbar-nav>.active>a{border-radius:0;color:#fff;background-color:#FFCA28}
+.navbar-default .navbar-nav>.active>a{border-radius:0;color:#fff;background-color: #039BE3;}
 
-.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fff;background-color:#FFCA28}
+.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fff;background-color:#039BE3}
 
 @media (min-width:768px){
 
@@ -190,7 +193,7 @@ section h3.section-subheading{
 
 @media (min-width:768px){
 
-   section{padding:100px 0}}.service-heading{margin:15px 0;text-transform:none;color: white;font-weight: 100}#portfolio .portfolio-item{margin:0 0 15px;right:0}#portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}#portfolio .portfolio-item .portfolio-link .portfolio-hover{background:#FFCA28;position:absolute;width:100%;height:100%;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s}#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{opacity:1}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{position:absolute;width:100%;height:20px;font-size:20px;text-align:center;top:50%;margin-top:-12px;color:#fff}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{margin-top:-12px}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:25px}#portfolio .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}#portfolio .portfolio-item
+   section{padding:100px 0}}.service-heading{margin:15px 0;text-transform:none;color: white;font-weight: 100}#portfolio .portfolio-item{margin:0 0 15px;right:0}#portfolio .portfolio-item .portfolio-link{display:block;position:relative;max-width:400px;margin:0 auto}#portfolio .portfolio-item .portfolio-link .portfolio-hover{background:#039BE5; position:absolute;width:100%;height:100%;opacity:0;transition:all ease .5s;-webkit-transition:all ease .5s;-moz-transition:all ease .5s}#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover{opacity:.8}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{position:absolute;width:100%;height:20px;font-size:20px;text-align:center;top:50%;margin-top:-12px;color:#fff}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{margin-top:-12px}#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}#portfolio .portfolio-item .portfolio-caption{max-width:400px;margin:0 auto;background-color:#fff;text-align:center;padding:25px}#portfolio .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}#portfolio .portfolio-item
    .portfolio-caption p{
       font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
       /*font-style:italic;*/
@@ -206,10 +209,10 @@ section h3.section-subheading{
       height:80px;
       position:absolute;
       z-index:100;
-      background-color: #42A5F5;
+      background-color: #039BE5;
       color:#fff;
       border-radius:100%;
-      border:7px solid #f1f1f1;
+      border:5px solid #f1f1f1;
       text-align:center
 }
 .timeline>li .timeline-image h4{font-size:10px;margin-top:15px;line-height:14px}.timeline>li.timeline-inverted>.timeline-panel{float:right;text-align:left;padding:0 20px 0 100px}.timeline>li.timeline-inverted>.timeline-panel:before{border-left-width:0;border-right-width:15px;left:-15px;right:auto}.timeline>li.timeline-inverted>.timeline-panel:after{border-left-width:0;border-right-width:14px;left:-14px;right:auto}.timeline>li:last-child{margin-bottom:0}.timeline .timeline-heading h4{margin-top:0;color:inherit}
